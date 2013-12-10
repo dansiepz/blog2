@@ -1,0 +1,21 @@
+
+		<footer>
+			<article class="container">	
+				<div class="row">
+					<div class="span7">
+						<p>
+							Copyright &copy; 2013 - Dan Siepen - Thank you for stopping by.
+							<br />
+			
+						</p>									
+					
+						</form>				
+					</div>
+				</div>	
+			</article>
+		</footer> 
+
+<% if user_signed_in? %>
+  <%= link_to 'Edit account', edit_user_registration_path %>
+  <%= link_to 'Logout', destroy_user_session_path, :method=>'delete' %>  <%= link_to "Posts", posts_path %>
+  <% end %>

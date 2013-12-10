@@ -1,0 +1,11 @@
+<div class="container">
+<h1>My Blog</h1>
+
+<% @posts.each do |post| %>
+	<p><b><%= link_to post.title, post %></b><small><%= post.created_at.strftime('%d %b %y') %></small></p>
+	<p><%= post.content.html_safe %></p>
+
+
+<% end %>
+
+

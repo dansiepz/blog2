@@ -1,0 +1,15 @@
+<div class="container">
+	<h1><%= @post.title %></h1>
+	<p>Posted by <%= @post.user.name %> on <%= @post.created_at.strftime('%d %b %y') %></p>
+	<hr>
+	<p>
+		<%= @post.content.html_safe %>
+	</p>
+	<hr>
+
+	<% if user_signed_in? %>
+		<%= link_to 'Edit', edit_post_path(@post), class: 'btn btn-warning' %>
+	<% end %>
+
+	<%= render 'comments/form' %>
+</div>

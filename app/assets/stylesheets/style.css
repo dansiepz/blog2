@@ -1,0 +1,34 @@
+.intro{
+	padding-top:100px;padding-bottom:0;margin-bottom:-240px;background:#ffffff }
+	.intro h1{font-size:60px;line-height:110%;text-transform:uppercase;font-weight:700;margin:0 0 40px 0;text-shadow:1px 1px 1px #fff;text-align:center;}.intro h1 span{text-transform:none;display:block;font-size:34px;line-height:110%;color:#222;font-weight:300;}
+.intro p{font-size:18px;color:#444;text-align:center;text-shadow:1px 1px 1px #fff;margin-bottom:40px;}
+.projects{background:#ff9900;color:#000;}.projects h2{text-shadow:1px 1px 1px #fbc16b;margin-top:0px;}
+.projects img{display:block;margin:0 auto;}
+.projects .col{width:50%;}
+.projects .col-left{float:left;}
+.projects .col-right{float:right;}
+.tracks {
+	background-image: url('tracks.JPG');
+	min-height: 600px;
+}
+.tracks h1 {
+	color: rgba(0,0,0,0.7);
+	font-size: 18px;
+	padding-top: 70px;
+} 
+.social{margin-bottom:30px;}.social a{float:left;margin:0 5px 10px 0;background:url('../images/sprites.png') 0 0 no-repeat;width:64px;height:64px;text-indent:-9000px;}
+.social .fb{background-position:0 -128px;}.social .fb:hover{background-position:-64px -128px;}
+.social .twitter{background-position:0 -192px;}.social .twitter:hover{background-position:-64px -192px;}
+.social .skype{background-position:0 0;}.social .skype:hover{background-position:-64px 0;}
+.social .linkedin{background-position:0 -64px;}.social .linkedin:hover{background-position:-64px -64px;} 
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 25px;
+  line-height: 20px;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+}
