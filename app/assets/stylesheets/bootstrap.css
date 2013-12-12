@@ -304,6 +304,7 @@ section{padding:120px 0;}section h2{font-size:46px;line-height:110%;text-transfo
 .contact p{font-size:15px;}
 .contact p.info{font-size:13px;}
 .contact input[type=text]{height:auto;}
+.contact input[type=email],.contact textarea{padding-top:15px;padding-bottom:15px;font-size:16px;background-color:#44a81d;border:1px solid #44a81d;color:#fff;}
 .contact input[type=text],.contact textarea{padding-top:15px;padding-bottom:15px;font-size:16px;background-color:#44a81d;border:1px solid #44a81d;color:#fff;}
 .contact input.error,.contact textarea.error{border:1px solid red;}
 .contact .alert-error{color:#fff;text-shadow:none;}.contact .alert-error ul{color:#fff;}

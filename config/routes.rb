@@ -1,4 +1,6 @@
 Blog2::Application.routes.draw do
+  resources :enquiries
+
   resources :comments
 
   get "blog" => "blog#index"
